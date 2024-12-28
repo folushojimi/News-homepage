@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 15px;
+    font-family: "inter", sans-serif;
+}
+
+/* HEADER SECTION */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px 20px 0px;
+}
+
+header .logo{
+    height: 30px;
+}
+
+/* MAIN SECTION */
+ .web3{
+    max-width: 100%;
+    height: auto;
+ }
+
+ .article-title{
+font-weight: 800;
+font-size: 45px;
+margin: 10px 0px 10px 0px;
+ }
+
+ .preview p{
+font-size: 15px;
+color: hsl(236, 13%, 42%);
+line-height: 25px;
+ }
+
+ .preview button{
+  padding: 16px;
+  width:50vw;
+  border: none;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background-color: hsl(5, 85%, 63%);
+  margin-top: 20px;
+ }
+
+ /*MAIN ASIDE SECTION*/
+ aside{
+    height:100% ;
+    width:100%;
+    background-color:green;
+ }
+ aside div h1{
+    margin-bottom: 15px;
+}
+
+aside div{
+    border: 2px solid red;
+    margin: 10px;
+
+}
