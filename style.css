@@ -27,6 +27,13 @@ header .logo{
     height: auto;
  }
 
+.img-cont::before{
+    content:"";
+    max-width: 100%;
+    height: auto;
+}
+
+
  .article-title{
 font-weight: 800;
 font-size: 45px;
@@ -53,14 +60,90 @@ line-height: 25px;
  aside{
     height:100% ;
     width:100%;
-    background-color:green;
- }
+    background-color: hsl(240, 100%, 5%);
+  }
+
  aside div h1{
     margin-bottom: 15px;
 }
 
 aside div{
-    border: 2px solid red;
-    margin: 10px;
+     margin: 10px;
+ }
 
+ .line-cont{
+    display: flex;
+    justify-items: center;
+    width: 100%;
+
+  }
+
+.hr{
+    /* background-color: hsl(236, 13%, 42%);
+    color: hsl(236, 13%, 42%); */
+
+    border: 0.50px solid hsl(236, 13%, 42%);
+    width: 100%;
+
+    
 }
+
+.content{
+    
+}
+
+.content h1{
+color:hsl(36, 100%, 99%);
+}
+
+.content p{
+color: hsl(236, 13%, 42%);
+}
+
+
+
+/* FOOTER STYLING */
+footer{
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+ }
+.related{
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    margin-top: 35px;
+}
+
+.related img{
+    height: 140px;
+}
+
+.related div{
+     line-height: 42px;
+}
+
+.related div h1{
+    color: hsl(5, 85%, 63%);
+}
+
+.related div p{
+     line-height: 27px;
+}
+
+
+@media (min-width: 1024px){
+    .web3{
+        /* visibility: hidden; */
+        display: none;
+    }
+
+    .img-cont::after{
+        content: url('image-web-3-desktop.jpg');
+    }
+
+    body{
+        background-color: red;
+    }
+}
+
